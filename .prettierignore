@@ -1,0 +1,8 @@
+.next
+build
+out
+node_modules
+public
+.next
+*.log
+.env
