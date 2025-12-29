@@ -95,11 +95,11 @@ export const PERIOD_CONFIG: Record<
   Period,
   { days: number | string; interval?: 'hourly' | 'daily' }
 > = {
-  daily: { days: 1, },
-  weekly: { days: 7, },
-  monthly: { days: 30, },
-  '3months': { days: 90, },
-  '6months': { days: 180, },
+  daily: { days: 1},
+  weekly: { days: 7},
+  monthly: { days: 30},
+  '3months': { days: 90},
+  '6months': { days: 180},
   yearly: { days: 365 },
   max: { days: 'max' },
 };
